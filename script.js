@@ -36,3 +36,9 @@
 // console.log(greeting.indexOf("World"));
 // console.log(greeting.slice(0, 5));
 // console.log(greeting.replace("World", "Dunia"));
+
+//topik Mengenal Null Dan Undefined
+let wadah;
+console.log(typeof wadah); //ini undefined
+wadah = null; //ini null bukan berati kosong atau undefined
+console.log(typeof wadah);
