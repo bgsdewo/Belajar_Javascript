@@ -20,3 +20,12 @@
 // nama = nama + " Sadewo";
 // //spasi dihitung karakter
 // console.log(nama.length);
+
+//Method-Method Javascript Yang Memudahkan Hidup Kita
+// let greeting = " hello world";
+// //penggunaan methodnya
+// console.log(greeting.toUpperCase());
+// //bisa juga tanpa harus dari dalam variabel
+// console.log("BAGUS".toLowerCase());
+// //method dalam string bisa digunakan tidak hanya sekali
+// console.log(greeting.trim().toUpperCase());
