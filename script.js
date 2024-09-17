@@ -32,3 +32,15 @@
 // //menggunakan method pop dalam array
 // barbel.pop();
 // console.log(barbel);
+
+// topic Method Array Unshift Dan Shift
+
+//menggunakan method unshift dalam array
+// let student = ["babayo", "cyan"];
+// console.log(student);
+// student.unshift("Ading");
+// console.log(student);
+
+// //menggunakan method shift dalam array
+// student.shift();
+// console.log(student);
