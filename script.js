@@ -29,3 +29,10 @@
 // console.log("BAGUS".toLowerCase());
 // //method dalam string bisa digunakan tidak hanya sekali
 // console.log(greeting.trim().toUpperCase());
+
+//topik Method Dan Argument (Parameter)
+
+// let greeting = "Hello World";
+// console.log(greeting.indexOf("World"));
+// console.log(greeting.slice(0, 5));
+// console.log(greeting.replace("World", "Dunia"));
