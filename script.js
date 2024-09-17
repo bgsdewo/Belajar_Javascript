@@ -83,3 +83,40 @@ console.log(pets.includes("at"));
 // array1.sort();
 // console.log(array1);
 // // Expected output: Array [1, 100000, 21, 30, 4]
+
+// //Method splice dalam array
+// const animals = ["ant", "bison", "camel", "duck", "elephant"];
+// console.log(animals.slice(2));
+// // Expected output: Array ["camel", "duck", "elephant"]
+// console.log(animals.slice(2, 4));
+// // Expected output: Array ["camel", "duck"]
+// console.log(animals.slice(1, 5));
+// // Expected output: Array ["bison", "camel", "duck", "elephant"]
+// console.log(animals.slice(-2));
+// // Expected output: Array ["duck", "elephant"]
+// console.log(animals.slice(2, -1));
+// // Expected output: Array ["camel", "duck"]
+// console.log(animals.slice());
+// // Expected output: Array ["ant", "bison", "camel", "duck", "elephant"]
+
+// //Method splice dalam array
+// const months = ["Jan", "March", "April", "June"];
+// months.splice(1, 0, "Feb");
+// // Inserts at index 1
+// console.log(months);
+// // Expected output: Array ["Jan", "Feb", "March", "April", "June"]
+// months.splice(4, 1, "May");
+// // Replaces 1 element at index 4
+// console.log(months);
+// // Expected output: Array ["Jan", "Feb", "March", "April", "May"]
+
+//Method reverese dalam array
+// const array1 = ['one', 'two', 'three'];
+// console.log('array1:', array1);
+// // Expected output: "array1:" Array ["one", "two", "three"]
+// const reversed = array1.reverse();
+// console.log('reversed:', reversed);
+// // Expected output: "reversed:" Array ["three", "two", "one"]
+// // Careful: reverse is destructive -- it changes the original array.
+// console.log('array1:', array1);
+// // Expected output: "array1:" Array ["three", "two", "one"]
