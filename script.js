@@ -48,29 +48,29 @@
 //topic Beberapa Method Array Yang Sering Digunakan
 
 //Method Concate dalam array
-const array1 = ["a", "b", "c"];
-const array2 = ["d", "e", "f"];
-const array3 = array1.concat(array2);
-console.log(array3);
+// const array1 = ["a", "b", "c"];
+// const array2 = ["d", "e", "f"];
+// const array3 = array1.concat(array2);
+// console.log(array3);
 
-//Method index of dalam array
-const beasts = ["ant", "bison", "camel", "duck", "bison"];
-console.log(beasts.indexOf("bison"));
-// Expected output: 1
-// Start from index 2
-console.log(beasts.indexOf("bison", 2));
-// Expected output: 4
-console.log(beasts.indexOf("giraffe"));
-// Expected output: -1
+// //Method index of dalam array
+// const beasts = ["ant", "bison", "camel", "duck", "bison"];
+// console.log(beasts.indexOf("bison"));
+// // Expected output: 1
+// // Start from index 2
+// console.log(beasts.indexOf("bison", 2));
+// // Expected output: 4
+// console.log(beasts.indexOf("giraffe"));
+// // Expected output: -1
 
-//Method includes dalam array
-const arraySatu = [1, 2, 3];
-console.log(arraySatu.includes(2));
-// Expected output: true
-const pets = ["cat", "dog", "bat"];
-console.log(pets.includes("cat"));
-// Expected output: true
-console.log(pets.includes("at"));
+// //Method includes dalam array
+// const arraySatu = [1, 2, 3];
+// console.log(arraySatu.includes(2));
+// // Expected output: true
+// const pets = ["cat", "dog", "bat"];
+// console.log(pets.includes("cat"));
+// // Expected output: true
+// console.log(pets.includes("at"));
 // Expected output: false
 
 // //Method Sort dalam array
@@ -120,3 +120,18 @@ console.log(pets.includes("at"));
 // // Careful: reverse is destructive -- it changes the original array.
 // console.log('array1:', array1);
 // // Expected output: "array1:" Array ["three", "two", "one"]
+
+//Method join dalam array
+// const elements = ['Fire', 'Air', 'Water'];
+// console.log(elements.join());
+// // Expected output: "Fire,Air,Water"
+// console.log(elements.join(''));
+// // Expected output: "FireAirWater"
+// console.log(elements.join('-'));
+// Expected output: "Fire-Air-Water"
+
+//topic Mengubah Nilai Const Dengan Array
+const kumpulanWarna = ["merah", "kuning", "hijau"];
+console.log(kumpulanWarna);
+kumpulanWarna.push("biru");
+console.log(kumpulanWarna);
