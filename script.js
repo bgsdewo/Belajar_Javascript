@@ -30,3 +30,16 @@
 // alert("contoh dari alert");
 // //contoh dari prompt
 // console.log(prompt("ini contoh dari prompt"));
+
+//topic nesting if
+
+// const password = prompt("Input Your Password!");
+// if (password.length >= 6) {
+//   if (password.indexOf(" ") === -1) {
+//     console.log("Password valid");
+//   } else {
+//     console.log("Password tidak boleh ada spasi");
+//   }
+// } else {
+//   password("Password minimal 6 karakter");
+// }
