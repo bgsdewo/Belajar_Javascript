@@ -43,3 +43,12 @@
 // } else {
 //   password("Password minimal 6 karakter");
 // }
+
+//Operator Logic And
+const password = prompt("Input Your Password!");
+if (password.length >= 6 && password.indexOf(" ") === -1) {
+  console.log("PAssword Valid");
+} else {
+  console.log("Password tidak valid");
+}
+//logical AND ini bisa mempersingkat Nested IF
