@@ -38,7 +38,15 @@
 // console.log(greeting.replace("World", "Dunia"));
 
 //topik Mengenal Null Dan Undefined
-let wadah;
-console.log(typeof wadah); //ini undefined
-wadah = null; //ini null bukan berati kosong atau undefined
-console.log(typeof wadah);
+// let wadah;
+// console.log(typeof wadah); //ini undefined
+// wadah = null; //ini null bukan berati kosong atau undefined
+// console.log(typeof wadah);
+
+//topik Mengenal Object Math Dan Angka Acak
+// console.log(Math.PI);
+// console.log(Math.E);
+// console.log(Math.abs(-123));
+// console.log(Math.floor(5.9));
+// console.log(Math.round(5.9));
+// console.log(Math.random());
