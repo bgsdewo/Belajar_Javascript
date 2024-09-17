@@ -61,3 +61,13 @@
 // } else {
 //   console.log("Kamu mau menyusup ke server ya");
 // }
+
+//topic Operator Logic Not
+
+// const role = prompt("Masukin Role Akun Anda").toLowerCase();
+
+// if (role !== "admin") {
+//   console.log("Kamu mau menyusup ke server ya");
+// } else {
+//   console.log("Masuk Ke Server");
+// }
