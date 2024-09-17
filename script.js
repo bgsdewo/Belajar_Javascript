@@ -45,10 +45,19 @@
 // }
 
 //Operator Logic And
-const password = prompt("Input Your Password!");
-if (password.length >= 6 && password.indexOf(" ") === -1) {
-  console.log("PAssword Valid");
-} else {
-  console.log("Password tidak valid");
-}
+// const password = prompt("Input Your Password!");
+// if (password.length >= 6 && password.indexOf(" ") === -1) {
+//   console.log("PAssword Valid");
+// } else {
+//   console.log("Password tidak valid");
+// }
 //logical AND ini bisa mempersingkat Nested IF
+
+////Operator Logic OR
+// const role = prompt("Masukin Role Akun Anda").toLowerCase();
+
+// if (role === "admin" || role === "gm") {
+//   console.log("Masuk Ke Server");
+// } else {
+//   console.log("Kamu mau menyusup ke server ya");
+// }
