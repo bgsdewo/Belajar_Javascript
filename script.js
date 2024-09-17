@@ -131,7 +131,17 @@
 // Expected output: "Fire-Air-Water"
 
 //topic Mengubah Nilai Const Dengan Array
-const kumpulanWarna = ["merah", "kuning", "hijau"];
-console.log(kumpulanWarna);
-kumpulanWarna.push("biru");
-console.log(kumpulanWarna);
+// const kumpulanWarna = ["merah", "kuning", "hijau"];
+// console.log(kumpulanWarna);
+// kumpulanWarna.push("biru");
+// console.log(kumpulanWarna);
+
+//topic Array Multidimensi Atau Nested Array
+const arrMultiDimensi = [
+  ["Amel", "Bagas", "Cici"],
+  ["Dera", "Ery", "Fahira"],
+  ["Gabtha", "Hira", "Ika"],
+];
+console.log(arrMultiDimensi);
+//cara megakses multidimensi
+console.log(arrMultiDimensi[1][0]);
