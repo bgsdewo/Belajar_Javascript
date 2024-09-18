@@ -46,3 +46,19 @@
 // console.log(sepatuAbidas.locationStock.indonesia);
 // //cara mengakses array didalam object
 // console.log(sepatuAbidas.color[0]);
+
+//topic cara membuat object berjalan
+// const dataSaya = {
+//   namaDepan: "Bagus",
+//   namaBelakang: "Sadewo",
+//   anakKe: "Dua",
+// };
+// //merubah isi value dari object dataSaya
+// dataSaya.namaBelakang = "Sagas";
+// console.log(dataSaya.namaBelakang);
+// //menambahakan key dan value baru ke object dataSaya
+// dataSaya.alamat = "Jln Batu Sari 01";
+// console.log(dataSaya);
+// //cara menambahkan array ke object yg sudah dibuat
+// dataSaya.favoriteColor = ["red", "blue"];
+// console.log(dataSaya);
