@@ -62,3 +62,13 @@
 // //cara menambahkan array ke object yg sudah dibuat
 // dataSaya.favoriteColor = ["red", "blue"];
 // console.log(dataSaya);
+
+//topic memanggil object didalam array
+//ini merupakan array + object
+// const sepatu = [
+//   { merk: "Abidas", harga: 75000000 },
+//   { merk: "Niiko", harga: 1200000 },
+//   { merk: "Jox", harga: 3000000 },
+// ];
+// //cara mengaksesnya
+// console.log(sepatu[0].merk);
