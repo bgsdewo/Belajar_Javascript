@@ -59,3 +59,28 @@
 //   console.log(i);
 //   if (i === 100) break;
 // }
+
+// membuat game tebakkan angka dengan while
+// let maximum = parseInt(prompt("Masukkan nilai maksimal!"));
+
+// // Pastikan pengguna memasukkan nilai maksimal yang valid
+// while (!maximum) {
+//   maximum = parseInt(prompt("Masukkan nilai maksimal!"));
+// }
+
+// // Hasilkan angka acak antara 1 dan nilai maksimal
+// const targetNum = Math.floor(Math.random() * maximum) + 1;
+// console.log(targetNum); // Untuk debugging
+
+// let guess = parseInt(prompt("Isi tebakan pertama kamu!"));
+
+// // Jalankan loop hingga pengguna menebak dengan benar
+// while (guess !== targetNum) {
+//   if (guess > targetNum) {
+//     guess = parseInt(prompt("Terlalu tinggi! tebak lagi:"));
+//   } else {
+//     guess = parseInt(prompt("Terlalu rendah! tebak lagi:"));
+//   }
+// }
+
+// alert("Selamat! Tebakan Anda benar!!");
