@@ -61,6 +61,7 @@
 // }
 
 // membuat game tebakkan angka dengan while
+
 // let maximum = parseInt(prompt("Masukkan nilai maksimal!"));
 
 // // Pastikan pengguna memasukkan nilai maksimal yang valid
@@ -84,3 +85,23 @@
 // }
 
 // alert("Selamat! Tebakan Anda benar!!");
+
+//Cara Elegan Melakukan Perulangan Pada Array For Of
+
+//pada array biasa
+// const animals = ["cat", "bird", "dog"];
+// for (let animal of animals) {
+//   console.log(animal);
+// }
+
+// //pada nested array
+// const nestedArrayRow = [
+//   ["Abidas", 75000000, "red", "blue"],
+//   ["Niiko", 1200000, "black", "white"],
+//   ["Jox", 3000000, "blue", "white"],
+// ];
+// for (let row of nestedArrayRow) {
+//   for (let single of row) {
+//     console.log(single);
+//   }
+// }
