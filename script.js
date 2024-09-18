@@ -37,10 +37,25 @@
 // }
 
 //ganti topic Perulangan Menggunakan Perintah While
-const password = "Pass123";
+// const password = "Pass123";
 
-let gues = prompt("enter your password");
-while (gues !== password) {
-  gues = prompt("enter the password");
-}
-alert("Password Benar");
+// let gues = prompt("enter your password");
+// while (gues !== password) {
+//   gues = prompt("enter the password");
+// }
+// alert("Password Benar");
+
+//topic Kata Kunci Break Untuk Memberhentikan Perulangan
+// let input = prompt("Hei,say something!");
+
+// while (true) {
+//   input = prompt(input);
+//   if (input === "stop") break;
+// }
+// alert("ok");
+
+//contoh lainnya
+// for (let i = 1; i <= 1000; i++) {
+//   console.log(i);
+//   if (i === 100) break;
+// }
