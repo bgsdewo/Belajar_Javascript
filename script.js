@@ -16,3 +16,12 @@
 // }
 
 // console.log(jumlahkan(1, 3));
+
+//topic Visibilitas Variabel Sesuai Scope Atau Ruang Lingkup
+let progamming = "JavaScript";
+function typeSafe() {
+  progamming = "TypeScript";
+  console.log(progamming);
+}
+typeSafe();
+console.log(progamming);
