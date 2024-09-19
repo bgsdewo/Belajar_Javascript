@@ -85,19 +85,30 @@
 // duaKali(lemparDadu);
 
 // topic function bernilai balik function
-function hasilnyaAdalahFunction() {
-  const rand = Math.random(); // Menghasilkan angka acak antara 0 dan 1
-  if (rand > 0.1) {
-    return function () {
-      console.log("Selamat, angkanya lebih besar");
-    };
-  } else {
-    return function () {
-      console.log("Maaf, mungkin bisa coba lagi");
-    };
-  }
-}
+// function hasilnyaAdalahFunction() {
+//   const rand = Math.random(); // Menghasilkan angka acak antara 0 dan 1
+//   if (rand > 0.1) {
+//     return function () {
+//       console.log("Selamat, angkanya lebih besar");
+//     };
+//   } else {
+//     return function () {
+//       console.log("Maaf, mungkin bisa coba lagi");
+//     };
+//   }
+// }
 
-// Memanggil fungsi yang dihasilkan
-const hasil = hasilnyaAdalahFunction();
-hasil(); // Menjalankan fungsi yang dikembalikan
+// // Memanggil fungsi yang dihasilkan
+// const hasil = hasilnyaAdalahFunction();
+// hasil(); // Menjalankan fungsi yang dikembalikan
+
+//topic Definisi Sebuah Method
+// const myMath = {
+//   //ini object
+//   perkalian: function (x, y) {
+//     //ini method
+//     return x * y;
+//   },
+// };
+// //cara mengakses methodnya
+// console.log(myMath.perkalian(5, 5));
