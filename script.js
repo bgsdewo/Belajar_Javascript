@@ -56,3 +56,9 @@
 //   return anime.title.toUpperCase();
 // });
 // console.log(animeList);
+
+//topic Sebelum Lanjut Kenalan Dengan Arrow Function
+const perkalian = (x, y) => {
+  console.log(x * y);
+};
+perkalian(2, 3);
