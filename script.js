@@ -25,3 +25,21 @@
 // }
 // typeSafe();
 // console.log(progamming);
+
+//topic Blocked Scope Variabel
+//case satu
+let tinggi = 8;
+if (tinggi < 10) {
+  let lebar = 5;
+  console.log(lebar);
+}
+// console.log(lebar);// ini gabisa karena blocked scope
+
+//case Dua
+for (let index = 0; index < 10; index++) {
+  const indexNumber = index;
+  console.log(indexNumber);
+}
+// console.log(indexNumber);//gabisa ini
+
+//kalo make var blocked scope ini berlaku atau bisa dicetak
