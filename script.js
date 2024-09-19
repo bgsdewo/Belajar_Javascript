@@ -113,12 +113,26 @@
 // //cara mengakses methodnya
 // console.log(myMath.perkalian(5, 5));
 
-//topic keyword sakti dari this
-const saya = {
-  nama: "Bagus",
-  hobi: "Bermain Game",
-  dataSaya: function () {
-    return `Hi,saya ${this.nama}. Hobi saya adalah ${this.hobi}`;
-  },
-};
-console.log(saya.dataSaya());
+//topic This Adalah Keyword Sakti
+
+// const saya = {
+//   nama: "Bagus",
+//   hobi: "Bermain Game",
+//   dataSaya: function () {
+//     return `Hi,saya ${this.nama}. Hobi saya adalah ${this.hobi}`;
+//   },
+// };
+// console.log(saya.dataSaya());
+
+//topic Try And Catch Adalah Penyelamat
+
+function teriak(msg) {
+  try {
+    console.log(msg.toUpperCase());
+  } catch (error) {
+    console.log(error);
+    console.log("Silakan masukkan tipe data string pada argument teriak()");
+  }
+}
+teriak("halo"); // Output: HALO
+teriak(123); // Output: Error dan pesan 'Silakan masukkan tipe data string pada argument teriak()'
