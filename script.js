@@ -45,12 +45,28 @@
 //kalo make var blocked scope ini berlaku atau bisa dicetak
 
 //topic function lexical scope
-function outerFunction() {
-  let outerVariable = "I'm from the outer function";
+// function outerFunction() {
+//   let outerVariable = "I'm from the outer function";
 
-  function innerFunction() {
-    console.log(outerVariable); // Mengakses variabel dari lexical scope (outer function)
-  }
-  innerFunction();
-}
-outerFunction();
+//   function innerFunction() {
+//     console.log(outerVariable); // Mengakses variabel dari lexical scope (outer function)
+//   }
+//   innerFunction();
+// }
+// outerFunction();
+
+//function expresion
+
+//contoh yg lama,karena function mau digunakan berkali"
+// function perpangkatan(nilai) {
+//   return nilai * nilai;
+// }
+// let hasil = perpangkatan(5);
+// console.log(hasil);
+
+//cara make function expresion
+// const hasilPerkalian = function (nilai) {
+//   return nilai * nilai;
+// };
+
+// console.log(hasilPerkalian(10));
