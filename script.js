@@ -58,7 +58,14 @@
 // console.log(animeList);
 
 //topic Sebelum Lanjut Kenalan Dengan Arrow Function
-const perkalian = (x, y) => {
-  console.log(x * y);
-};
-perkalian(2, 3);
+// const perkalian = (x, y) => {
+//   console.log(x * y);
+// };
+// perkalian(2, 3);
+
+//topic Return Secara Implisit Dari Arrow Function
+// const random = () => Math.floor(Math.random() * 1000);
+const add = (a, b) => a + b;
+//intinya kalo mau melakukan seperti ini,ketika kita ingin me return satu baris saja!
+console.log(random());
+console.log(add(1, 2));
