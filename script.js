@@ -112,3 +112,13 @@
 // };
 // //cara mengakses methodnya
 // console.log(myMath.perkalian(5, 5));
+
+//topic keyword sakti dari this
+const saya = {
+  nama: "Bagus",
+  hobi: "Bermain Game",
+  dataSaya: function () {
+    return `Hi,saya ${this.nama}. Hobi saya adalah ${this.hobi}`;
+  },
+};
+console.log(saya.dataSaya());
