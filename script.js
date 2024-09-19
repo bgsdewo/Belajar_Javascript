@@ -72,6 +72,7 @@
 // console.log(hasilPerkalian(10));
 
 //function Sebagai Argument Function Lain
+
 // function duaKali(func) {
 //   func();
 //   func();
@@ -82,3 +83,21 @@
 //   console.log(hasil);
 // }
 // duaKali(lemparDadu);
+
+// topic function bernilai balik function
+function hasilnyaAdalahFunction() {
+  const rand = Math.random(); // Menghasilkan angka acak antara 0 dan 1
+  if (rand > 0.1) {
+    return function () {
+      console.log("Selamat, angkanya lebih besar");
+    };
+  } else {
+    return function () {
+      console.log("Maaf, mungkin bisa coba lagi");
+    };
+  }
+}
+
+// Memanggil fungsi yang dihasilkan
+const hasil = hasilnyaAdalahFunction();
+hasil(); // Menjalankan fungsi yang dikembalikan
