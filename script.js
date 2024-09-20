@@ -65,7 +65,22 @@
 
 //topic Return Secara Implisit Dari Arrow Function
 // const random = () => Math.floor(Math.random() * 1000);
-const add = (a, b) => a + b;
-//intinya kalo mau melakukan seperti ini,ketika kita ingin me return satu baris saja!
-console.log(random());
-console.log(add(1, 2));
+// const add = (a, b) => a + b;
+// //intinya kalo mau melakukan seperti ini,ketika kita ingin me return satu baris saja!
+// console.log(random());
+// console.log(add(1, 2));
+
+//topic Memahami Settimeout Dan Setinterval
+
+// penggunaan dari settimeout
+// console.log("Haloo");
+// setTimeout(() => {
+//   console.log("Masih disana gak??"); //menunggu 5 detik baru muncul
+// }, 5000);
+
+// //setinterval
+// const interval = setInterval(() => {
+//   console.log(Math.random());
+// }, 2000);
+// //membersihkan setinterval
+// clearInterval(interval);
