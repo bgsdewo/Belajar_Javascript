@@ -34,3 +34,21 @@
 // //gabungkan object user dan pass user
 // const dataLengkap = { ...user, ...passUser };
 // console.log(dataLengkap);
+
+//topic Malas Bikin Parameter Banyak Bisa Pakai Rest Param
+//case satu
+// const sumAll = (...nums) => {
+//   return nums.reduce((total, el) => total + el);
+// };
+// console.log(sumAll(1, 2, 3, 4, 5));
+// //case dua
+// const persons = ["Bagus", "Alya", "Misha", "Jenifer", "Dera"];
+
+// const pemenang = (gold, silver, bronze, ...otherPersons) => {
+//   console.log(`Juara satu ${gold}`);
+//   console.log(`Juara dua ${silver}`);
+//   console.log(`Juara tiga ${bronze}`);
+//   console.log(`Peserta lainnya ${otherPersons}`);
+// };
+
+// pemenang(...persons);
