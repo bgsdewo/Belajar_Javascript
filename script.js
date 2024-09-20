@@ -109,3 +109,23 @@
 // console.log(judulAnimeBagus);
 // const animeSedang = animes.filter((animes) => animes.rating <= 8.0);
 // console.log(animeSedang);
+
+//topic Menentukan Benar Atau Salah Pada Array Dengan Every Dan Some Method
+//menggunakan every
+const examScore = [80, 80, 70, 75];
+const isGraduate = examScore.every((score) => score >= 75);
+console.log(isGraduate);
+
+//menggunakan some
+const animes = [
+  { title: "Attack on Titan", rating: 9.1 },
+  { title: "Fullmetal Alchemist: Brotherhood", rating: 9.2 },
+  { title: "Naruto", rating: 8.3, year: 2003 },
+  { title: "One Piece", rating: 8.8, year: 2004 },
+  { title: "Death Note", rating: 8.9, year: 2005 },
+  { title: "Demon Slayer", rating: 8.7, year: 2006 },
+  { title: "My Hero Academia", rating: 8.4, year: 2007 },
+  { title: "Sword Art Online", rating: 7.6, year: 2008 },
+];
+const isAnimeListNew = animes.some((anime) => anime.year > 2007);
+console.log(isAnimeListNew);
