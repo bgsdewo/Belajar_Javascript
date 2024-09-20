@@ -156,3 +156,22 @@
 //   }
 //   return lowAnime;
 // });
+
+//topic Object This Di Dalam Arrow Function Mengarah Pada Object Global Window
+// const person = {
+//   firstName: "Bagus",
+//   lastName: "Sadewo",
+//   fullName: () => {
+//     console.log(this);
+//     return `${this.firstName} ${this.lastName}`;
+//   },
+//   panggilNanti: function () {
+//     setTimeout(() => {
+//       console.log(this);
+//       console.log(this.fullName());
+//     }, 3000);
+//   },
+// };
+
+// person.fullName(); //muncul ke global window
+// person.panggilNanti(); //muncul ke global window
