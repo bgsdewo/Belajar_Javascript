@@ -50,5 +50,12 @@
 //   console.log(`Juara tiga ${bronze}`);
 //   console.log(`Peserta lainnya ${otherPersons}`);
 // };
-
 // pemenang(...persons);
+
+//topic Bongkar Element Array Ke Masing-Masing Variabel Dengan Mudah-
+// const persons = ["Bagus", "Alya", "Misha", "Jenifer", "Dera"];
+// const [gold, silver, bronze, ...otherPersons] = persons;
+// console.log(gold);
+// console.log(silver);
+// console.log(bronze);
+// console.log(otherPersons);
