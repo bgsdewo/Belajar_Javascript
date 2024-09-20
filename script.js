@@ -21,3 +21,16 @@
 // const animals = ["Singa", "Sapi"];
 // const campuran = [...angka, ...animals, true];
 // console.log(campuran);
+
+//topic Menggabungkan Property Object Dengan Object Lainnya
+// const user = {
+//   firstName: "Bagus",
+//   lastName: "Sadewo",
+// };
+// const passUser = {
+//   idUser: "bgsdewo",
+//   passUser: "123",
+// };
+// //gabungkan object user dan pass user
+// const dataLengkap = { ...user, ...passUser };
+// console.log(dataLengkap);
