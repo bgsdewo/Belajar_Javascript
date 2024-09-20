@@ -112,20 +112,47 @@
 
 //topic Menentukan Benar Atau Salah Pada Array Dengan Every Dan Some Method
 //menggunakan every
-const examScore = [80, 80, 70, 75];
-const isGraduate = examScore.every((score) => score >= 75);
-console.log(isGraduate);
+// const examScore = [80, 80, 70, 75];
+// const isGraduate = examScore.every((score) => score >= 75);
+// console.log(isGraduate);
 
-//menggunakan some
-const animes = [
-  { title: "Attack on Titan", rating: 9.1 },
-  { title: "Fullmetal Alchemist: Brotherhood", rating: 9.2 },
-  { title: "Naruto", rating: 8.3, year: 2003 },
-  { title: "One Piece", rating: 8.8, year: 2004 },
-  { title: "Death Note", rating: 8.9, year: 2005 },
-  { title: "Demon Slayer", rating: 8.7, year: 2006 },
-  { title: "My Hero Academia", rating: 8.4, year: 2007 },
-  { title: "Sword Art Online", rating: 7.6, year: 2008 },
-];
-const isAnimeListNew = animes.some((anime) => anime.year > 2007);
-console.log(isAnimeListNew);
+// //menggunakan some
+// const animes = [
+//   { title: "Attack on Titan", rating: 9.1 },
+//   { title: "Fullmetal Alchemist: Brotherhood", rating: 9.2 },
+//   { title: "Naruto", rating: 8.3, year: 2003 },
+//   { title: "One Piece", rating: 8.8, year: 2004 },
+//   { title: "Death Note", rating: 8.9, year: 2005 },
+//   { title: "Demon Slayer", rating: 8.7, year: 2006 },
+//   { title: "My Hero Academia", rating: 8.4, year: 2007 },
+//   { title: "Sword Art Online", rating: 7.6, year: 2008 },
+// ];
+// const isAnimeListNew = animes.some((anime) => anime.year > 2007);
+// console.log(isAnimeListNew);
+
+//topic Mendapatkan Satu Nilai Sesuai Kondisi Dari Sebuah Array Dengan Reduce
+// contoh case 1
+// const examScore = [80, 80, 70, 75];
+// const total = examScore.reduce((total, score) => {
+//   return total + score;
+// });
+// console.log(total);
+
+// //contoh case 2
+// const animes = [
+//   { title: "Naruto", rating: 8.3, year: 2003 },
+//   { title: "One Piece", rating: 8.8, year: 2004 },
+//   { title: "Death Note", rating: 8.9, year: 2005 },
+//   { title: "Demon Slayer", rating: 8.7, year: 2006 },
+//   { title: "My Hero Academia", rating: 8.4, year: 2007 },
+//   { title: "Sword Art Online", rating: 7.6, year: 2008 },
+//   { title: "Fullmetal Alchemist: Brotherhood", rating: 9.2 },
+//   { title: "Attack on Titan", rating: 9.1 },
+// ];
+// const lowAnime = animes.reduce((lowAnime, currAnime) => {
+//   console.log(lowAnime, currAnime);
+//   if (currAnime.rating > lowAnime.rating) {
+//     return currAnime;
+//   }
+//   return lowAnime;
+// });
