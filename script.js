@@ -84,3 +84,28 @@
 // }, 2000);
 // //membersihkan setinterval
 // clearInterval(interval);
+
+//topic Memiilh Data Tertentu Di Dalam Array Dengan Filter Method
+//contoh satu
+// const angka = [1, 2, 3, 4, 5, 6];
+// const angkataBaru = angka.filter((n) => {
+//   return n < 5;
+// });
+// console.log(angkataBaru);
+// //contoh dua
+// const animes = [
+//   { title: "Attack on Titan", rating: 9.1 },
+//   { title: "Fullmetal Alchemist: Brotherhood", rating: 9.2 },
+//   { title: "Naruto", rating: 8.3 },
+//   { title: "One Piece", rating: 8.8 },
+//   { title: "Death Note", rating: 8.9 },
+//   { title: "Demon Slayer", rating: 8.7 },
+//   { title: "My Hero Academia", rating: 8.4 },
+//   { title: "Sword Art Online", rating: 7.6 },
+// ];
+// const animeBagus = animes.filter((animes) => animes.rating >= 8.5);
+// console.log(animeBagus);
+// const judulAnimeBagus = animeBagus.map((anime) => anime.title);
+// console.log(judulAnimeBagus);
+// const animeSedang = animes.filter((animes) => animes.rating <= 8.0);
+// console.log(animeSedang);
