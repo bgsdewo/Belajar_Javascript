@@ -59,3 +59,18 @@
 // console.log(silver);
 // console.log(bronze);
 // console.log(otherPersons);
+
+//topic Bongkar Juga Properti Object Ke Masing-Masing Variabel
+const user = {
+  firstName: "Bagus",
+  lastName: "Sadewo",
+};
+
+const {
+  firstName: namaDepan,
+  lastName: namaBelakang,
+  phone = "08985312285",
+} = user;
+console.log(namaDepan);
+console.log(namaBelakang);
+console.log(phone);
