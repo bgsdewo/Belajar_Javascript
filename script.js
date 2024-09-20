@@ -61,16 +61,43 @@
 // console.log(otherPersons);
 
 //topic Bongkar Juga Properti Object Ke Masing-Masing Variabel
-const user = {
-  firstName: "Bagus",
-  lastName: "Sadewo",
-};
+// const user = {
+//   firstName: "Bagus",
+//   lastName: "Sadewo",
+// };
 
-const {
-  firstName: namaDepan,
-  lastName: namaBelakang,
-  phone = "08985312285",
-} = user;
-console.log(namaDepan);
-console.log(namaBelakang);
-console.log(phone);
+// const {
+//   firstName: namaDepan,
+//   lastName: namaBelakang,
+//   phone = "08985312285",
+// } = user;
+// console.log(namaDepan);
+// console.log(namaBelakang);
+// console.log(phone);
+
+//Bongkar Properti Object Bisa Dilakukan Di Dalam Function
+// //case satu
+// const user = {
+//   firstName: "Bagus",
+//   lastName: "Sadewo",
+//   role: "admin",
+// };
+// const userAndRole = ({ firstName, role }) => {
+//   return `${firstName} ${role}`;
+// };
+// console.log(userAndRole(user));
+
+// //case dua
+// const animeList = [
+//   { title: "Naruto", rating: 8.5 },
+//   { title: "One Piece", rating: 9.0 },
+//   { title: "Attack on Titan", rating: 9.5 },
+//   { title: "My Hero Academia", rating: 8.0 },
+//   { title: "Demon Slayer", rating: 8.7 },
+// ];
+
+// const anime = animeList.map(({ title, rating }) => {
+//   return `${title} ${rating}`;
+// });
+
+// console.log(anime);
